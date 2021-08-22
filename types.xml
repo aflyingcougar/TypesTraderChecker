@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<types>
+<!-- Vanilla Types -->
+	<type name="M16A2">
+		<nominal>8</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>5</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="ACOGOptic_6x">
+		<nominal>20</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="Mag_AK74_45Rnd">
+		<nominal>15</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>8</min>
+		<quantmin>20</quantmin>
+		<quantmax>90</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="Mag_STANAG_60Rnd">
+		<nominal>10</nominal>
+		<lifetime>28800</lifetime>
+		<restock>2700</restock>
+		<min>8</min>
+		<quantmin>10</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+	</type>
+	<type name="lodineTincture">
+		<nominal>15</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>12</min>
+		<quantmin>20</quantmin>
+		<quantmax>100</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+		<usage name="Medic" />
+	</type>
+	<type name="CrudeMachete">
+		<nominal>15</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+	</type>
+	<type name="OrientaMachete">
+		<nominal>15</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>10</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="tools" />
+	</type>
+	<type name="pakol_hat">
+		<nominal>30</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>20</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="clothes" />
+		<usage name="Town" />
+		<usage name="Village" />
+	</type>
+<!-- Vanilla Types End -->
+</types>
