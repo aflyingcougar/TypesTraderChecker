@@ -104,8 +104,8 @@ def main():
 	
 	# parse Types.xml file
 	itemTypes = parseTypes('types.xml')
-	print(itemTypes)
 
+	# parse TraderConfig.txt
 	traderTypes = parseTrader('TraderConfig.txt')
 
 	print('Number of types in types.xml: ' + str(len(itemTypes)))
