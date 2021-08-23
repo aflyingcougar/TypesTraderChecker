@@ -111,12 +111,9 @@ def main():
 	print('Number of types in types.xml: ' + str(len(itemTypes)))
 	print('Number of unique types in TraderConfig.txt: ' + str(len(traderTypes)))
 	print('Checking for duplicates in types.xml... ' + checkIfDuplicates(itemTypes) + ' found')
-	#print('Types that need to be added to trader: ')
-	# print(typesNotInTrader(itemTypes, traderTypes))
-
+	
 	savetoCSV(typesNotInTrader(itemTypes, traderTypes), 'typesNotInTrader.csv')
-	savetoCSV(itemTypes, 'types.csv')
-	savetoCSV(traderTypes, 'traderTypes.csv')
+	print('Saved types not in trader: typesNotInTrader.csv!')
 	
 
 	
