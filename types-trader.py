@@ -78,7 +78,7 @@ def typesNotInTrader(itemTypes, traderTypes):
 	missingTypes = []
 
 	for type in itemTypes:
-		if not(type in traderTypes):
+		if not(type.upper() in (traderType.upper() for traderType in traderTypes)):
 			missingTypes.append(type)
 
 	return missingTypes
@@ -107,6 +107,9 @@ def main():
 
 	# parse TraderConfig.txt
 	traderTypes = parseTrader('TraderConfig.txt')
+
+	savetoCSV(itemTypes, 'types.csv')
+	savetoCSV(traderTypes, 'trader.csv')
 
 	print('Number of types in types.xml: ' + str(len(itemTypes)))
 	print('Number of unique types in TraderConfig.txt: ' + str(len(traderTypes)))
